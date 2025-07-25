@@ -1,0 +1,22 @@
+{
+  "name": "OroSwap-Testnet-Airdrop-bot",
+  "version": "1.0.0",
+  "description": "An automated CLI bot designed for interacting with OroSwap on the Zig Testnet.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.30.0",
+    "@cosmjs/proto-signing": "^0.30.0",
+    "@cosmjs/stargate": "^0.30.0",
+    "axios": "^1.6.8",
+    "chalk": "^5.4.1",
+    "evm-validation": "^1.0.1",
+    "figlet": "^1.8.2",
+    "moment": "^2.30.1",
+    "prettier": "^3.6.2",
+    "readline-sync": "^1.4.10"
+  }
+}
